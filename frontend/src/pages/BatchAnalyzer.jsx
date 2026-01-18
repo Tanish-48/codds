@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { motion } from 'framer-motion';
-import { Upload, X, Download, CheckCircle, AlertCircle } from 'lucide-react';
+import { Upload, X, Download, Trash2, CheckCircle, AlertCircle } from 'lucide-react';
 import './BatchAnalyzer.css';
 
 export default function BatchAnalyzer() {

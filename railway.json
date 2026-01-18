@@ -5,6 +5,6 @@
   },
   "deploy": {
     "numReplicas": 1,
-    "startCommand": "gunicorn app:app --chdir backend"
+    "startCommand": "gunicorn run:app --chdir backend --timeout 60"
   }
 }
